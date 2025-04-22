@@ -1,0 +1,28 @@
+
+
+.cardSection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.cardSection .card{
+    border: 1px solid red;
+    height: 80px;
+    width: 140px;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  .removeBtn {
+    margin-top: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
